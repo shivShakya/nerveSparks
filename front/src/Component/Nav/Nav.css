@@ -1,0 +1,40 @@
+/* Nav.css */
+.nav {
+       background-color: #4d18b6;
+       color: #fff;
+       display: flex;
+       justify-content: center;
+       width:180vh;
+       position: fixed;
+      top : 0;
+     }
+     
+     ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       display: flex;
+     }
+     
+     li {
+       padding: 10px;
+     }
+     
+     li a {
+       text-decoration: none;
+       color: #fff;
+     }
+     
+     .li-nav {
+       background-color: #c7bfbf;
+       border-radius: 5px;
+       margin: 20px;
+       cursor: pointer;
+       width: 10vh;
+       transition: background-color 0.3s;
+     }
+     
+     .li-nav:hover {
+       background-color: #555;
+     }
+     

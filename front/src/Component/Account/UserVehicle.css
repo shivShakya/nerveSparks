@@ -1,0 +1,32 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    width:300px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .vehicle-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .vehicle-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #4d4343;
+    color: #ccc;
+  }
+  
+  .vehicle-item h1 {
+    margin: 5px 0;
+  }
+  
